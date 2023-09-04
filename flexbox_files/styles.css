@@ -31,17 +31,13 @@ h2{
      display: flex;
      justify-content: space-between;
      margin:1em 0;
-     /* border:1px solid red; */
 }
 
-
-
-@media (max-width: 600px){
+@media (max-width:600){
     .columns{
         flex-direction: column;
     }
 }
-
 
 img{
     width: 100%;
@@ -67,8 +63,4 @@ img{
     width: 70%;
 }
 
-@media (max-width: 600px){
-    .col{
-        width:100%;
-    }
-}
+
