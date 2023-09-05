@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+img{
+max-width: 100%;
+display: block;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  color: #143774;
+}
+
+/* typography */
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+a {
+  color: #1792d2;
+  /* font-weight: bolder; */
+}
+a:hover,
+a:focus {
+  color: #143774;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.subtitle {
+  font-weight: 700;
+  color: #1792d2;
+  font-size: 0.75rem;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.article-title {
+  font-size: 1.5rem;
+}
+
+.article-read-more,
+.article-info {
+  font-size: 0.875rem;
+}
+
+.article-read-more {
+  color: #1792d2;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.article-read-more:hover,
+.article-read-more:focus {
+  color: #143774;
+  text-decoration: underline;
+  /* font-weight: 700; */
+}
+
+.container {
+  /* border:1px solid red; */
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.container-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  /* text-align: center; */
+  background-color: rgb(235, 232, 233);
+  padding: 2em 0;
+}
+
+.current-page {
+  /* text-decoration: underline; */
+  border-bottom: 3px solid #707070;
+  border-radius: 1px;
+}
+.current-page:hover {
+  color: #707070;
+  /* text-decoration: underline; */
+  border-bottom: 3px solid #707070;
+  border-radius: 1px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+nav li {
+  margin-left: 2em;
+}
+nav a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #707070;
+}
+nav a:hover,
+nav a:focus {
+  color: #1792d2;
+  /* text-decoration: underline; */
+}
+
+@media (max-width: 676px) {
+  .container-nav {
+    flex-direction: column;
+  }
+  header {
+    text-align: center;
+  }
+}
+
+@media (max-width: 676px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    margin: 0.5em 0;
+  }
+}
