@@ -1,4 +1,9 @@
 # SocialLife
+A modern and a fully responsive web blog with three pages:
 
-A modern and responsive web blog
-web
+1. Home page
+2. Recent Posts
+3. About me
+
+
+
