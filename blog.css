@@ -209,9 +209,6 @@ nav a:focus {
 
 }
 
-.article-recent-secondary{
-  /* order:1; */
-}
 
 @media (min-width:576px){
   .article-recent{
@@ -299,7 +296,3 @@ footer{
   padding:3em 0;
 }
 
-.widget-body{
-  
-
-}
