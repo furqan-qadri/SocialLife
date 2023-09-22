@@ -5,8 +5,8 @@ A modern and a fully responsive web blog with three pages:
 2. Recent Posts
 3. About me
 
-The design is based on a figma mockup
-several tech is used in this project
+The design is based on a figma mockup which has been copied to pixel
+perfect precision.
 
 
 
