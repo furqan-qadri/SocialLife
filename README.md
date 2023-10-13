@@ -6,7 +6,8 @@ A modern and a fully responsive web blog with three pages:
 3. About me
 
 The design is based on a figma mockup which has been copied to pixel
-perfect precision.
+perfect precision. CSS techniques such as flexbox and grid 
+have been used as well.
 
 
 
