@@ -10,5 +10,3 @@ perfect precision. CSS techniques such as flexbox and grid
 have been used as well
 
 
-
-
